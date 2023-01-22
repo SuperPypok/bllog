@@ -1,0 +1,1355 @@
+[10:32:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:48] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[10:32:48] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Users\МовчанНикита\AppData\Local\Packages\Microsoft.4297127D64EC6_8wekyb3d8bbwe\LocalCache\Local\runtime\jre-legacy\windows-x64\jre-legacy
+[10:32:48] [main/INFO] [FML]: Searching C:\Users\МовчанНикита\AppData\Roaming\.minecraft\mods for mods
+[10:32:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Bloodmoon-MC1.12.2-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[10:32:48] [main/WARN] [FML]: The coremod lumien.bloodmoon.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[10:32:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[10:32:48] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[10:32:48] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[10:32:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.15-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[10:32:48] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[10:32:48] [main/WARN] [FML]: The coremod Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (pl.asie.foamfix.coremod.FoamFixCore) is not signed!
+[10:32:48] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[10:32:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[10:32:48] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[10:32:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-150.jar
+[10:32:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from phosphor-forge-mc1.12.2-0.2.7-universal.jar
+[10:32:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:32:48] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[10:32:48] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[10:32:48] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/МовчанНикита/AppData/Roaming/.minecraft/mods/VanillaFix-1.0.10-150.jar Service=LaunchWrapper Env=CLIENT
+[10:32:49] [main/INFO] [VanillaFix]: Initializing VanillaFix
+[10:32:49] [main/INFO] [VanillaFix]: Initializing StacktraceDeobfuscator
+[10:32:49] [main/INFO] [VanillaFix]: Downloading MCP method mappings to: methods-stable_39.csv
+[10:32:49] [main/ERROR] [VanillaFix]: Failed to get MCP data!
+java.lang.RuntimeException: java.net.UnknownHostException: export.mcpbot.bspk.rs
+	at org.dimdev.vanillafix.crashes.StacktraceDeobfuscator.init(StacktraceDeobfuscator.java:52) ~[StacktraceDeobfuscator.class:?]
+	at org.dimdev.vanillafix.VanillaFixLoadingPlugin.initStacktraceDeobfuscator(VanillaFixLoadingPlugin.java:60) [VanillaFix-1.0.10-150.jar:?]
+	at org.dimdev.vanillafix.VanillaFixLoadingPlugin.<clinit>(VanillaFixLoadingPlugin.java:43) [VanillaFix-1.0.10-150.jar:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:348) [?:?]
+	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:527) [forge-1.12.2-14.23.5.2860.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.injectCorePlugin(MixinPlatformAgentFMLLegacy.java:244) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.initFMLCoreMod(MixinPlatformAgentFMLLegacy.java:171) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFMLLegacy.accept(MixinPlatformAgentFMLLegacy.java:157) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinContainer.<init>(MixinContainer.java:74) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.createContainerFor(MixinPlatformManager.java:143) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.addContainer(MixinPlatformManager.java:135) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.platform.MixinPlatformManager.init(MixinPlatformManager.java:104) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.MixinBootstrap.getPlatform(MixinBootstrap.java:107) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.MixinBootstrap.start(MixinBootstrap.java:154) [VanillaFix-1.0.10-150.jar:?]
+	at org.spongepowered.asm.launch.MixinTweaker.<init>(MixinTweaker.java:46) [VanillaFix-1.0.10-150.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422) [?:?]
+	at java.lang.Class.newInstance(Class.java:442) [?:?]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+Caused by: java.net.UnknownHostException: export.mcpbot.bspk.rs
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184) ~[?:?]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:?]
+	at java.net.Socket.connect(Socket.java:589) ~[?:?]
+	at java.net.Socket.connect(Socket.java:538) ~[?:?]
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432) ~[?:?]
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527) ~[?:?]
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308) ~[?:?]
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:713) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932) ~[?:?]
+	at org.dimdev.vanillafix.crashes.StacktraceDeobfuscator.init(StacktraceDeobfuscator.java:31) ~[StacktraceDeobfuscator.class:?]
+	... 26 more
+[10:32:49] [main/INFO] [VanillaFix]: Done initializing StacktraceDeobfuscator
+[10:32:49] [main/INFO] [VanillaFix]: Initializing Bug Fix Mixins
+[10:32:49] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[10:32:49] [main/INFO] [VanillaFix]: Initializing Crash Fix Mixins
+[10:32:49] [main/INFO] [VanillaFix]: Initializing Profiler Improvement Mixins
+[10:32:49] [main/INFO] [VanillaFix]: Initializing Texture Fix Mixins
+[10:32:49] [main/INFO] [VanillaFix]: Initializing Mod Support Mixins
+[10:32:49] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[10:32:49] [main/WARN] [FML]: The coremod PhosphorFMLLoadingPlugin (me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin) is not signed!
+[10:32:49] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[10:32:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:32:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:32:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:32:49] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[10:32:49] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[10:32:49] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[10:32:49] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[10:32:49] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Users\МовчанНикита\AppData\Roaming\.minecraft\mods\OptiFine_1.12.2_HD_U_G5.jar
+[10:32:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[10:32:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[10:32:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:52] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[10:32:52] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@3bbf9027
+[10:32:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:32:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[10:32:53] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[10:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[10:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[10:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:53] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[10:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:53] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[10:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[10:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:53] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[10:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:53] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[10:32:53] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:53] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:53] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
+[10:32:54] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.bloodmoon.asm.ClassTransformer' was detected and will no longer process meta class data
+[10:32:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[10:32:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[10:32:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[10:32:54] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:54] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[10:32:54] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[10:32:54] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[10:32:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.BlockModelRenderer
+[10:32:54] [main/INFO] [Quark ASM]: Optifine Detected. Disabling Patch for Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V
+[10:32:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
+[10:32:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[10:32:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:54] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[10:32:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:54] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[10:32:54] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[10:32:54] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:54] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.vazkii.quark.base.asm.ClassTransformer' was detected and will no longer process meta class data
+[10:32:54] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[10:32:54] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[10:32:54] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[10:32:54] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[10:32:54] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[10:32:54] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[10:32:54] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[10:32:54] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[10:32:54] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:32:54] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[10:32:54] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[10:32:55] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[10:32:55] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[10:32:55] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[10:32:55] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[10:32:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:55] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:55] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[10:32:55] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:55] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[10:32:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:55] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:55] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.gui.inventory.GuiContainer
+[10:32:55] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [drawScreen, func_73863_a] Descriptor (IIF)V)
+[10:32:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:55] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.func_146979_b (II)V
+[10:32:55] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:55] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[10:32:55] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[10:32:55] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[10:32:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:55] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:55] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[10:32:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[10:32:55] [main/INFO] [Quark ASM]: Patch result: true
+[10:32:55] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[10:32:55] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[10:32:55] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[10:32:56] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: SuperFeda
+[10:32:56] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[10:32:56] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[10:32:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.state.BlockStateContainer.foamfix_mapper
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[10:32:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node ARETURN
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[10:32:56] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[10:32:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:56] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[10:32:56] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterBlockStateAccessPatch$FFMethodVisitor:visitMethodInsn:93]: Added ghost buster patch (getBlockState call wrapped) in net/minecraft/block/BlockFarmland func_176530_e (net/minecraft/world/World func_180495_p (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;)
+[10:32:57] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[10:32:57] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[10:32:57] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:57] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[10:32:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:57] [Client thread/INFO] [Quark ASM]: Located patch target node BIPUSH 6
+[10:32:57] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:58] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[10:32:58] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[10:32:58] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:58] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
+[10:32:58] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
+[10:32:58] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[10:32:58] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[10:32:58] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:58] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[10:32:58] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[10:32:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[10:32:59] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Forge ***
+[10:32:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[10:32:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[10:32:59] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ModelLoaderCleanupPatch:apply:99]: Added ModelLoader cleanup patch (1 occurences).
+[10:32:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderManager
+[10:32:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntity, func_188391_a] Descriptor (Lnet/minecraft/entity/Entity;DDDFFZ)V)
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/Render.func_76986_a (Lnet/minecraft/entity/Entity;DDDFF)V
+[10:32:59] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.Render
+[10:32:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntityOnFire, func_76977_a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V)
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:59] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Vanilla ***
+[10:32:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.model.ModelBiped
+[10:32:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [setRotationAngles, func_78087_a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V)
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node RETURN
+[10:32:59] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderBoat
+[10:32:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doRender, func_188300_b] Descriptor (Lnet/minecraft/entity/item/EntityBoat;DDDFF)V)
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:32:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEINTERFACE net/minecraft/client/model/IMultipassModel.func_187054_b (Lnet/minecraft/entity/Entity;FFFFFF)V
+[10:32:59] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.pickItem:key.mouse.middle
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.mouse.middle"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.playerlist:key.keyboard.tab
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.tab"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.advancements:key.keyboard.l
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.l"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.5:key.keyboard.5
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.5"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.6:key.keyboard.6
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.6"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.7:key.keyboard.7
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.7"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.8:key.keyboard.8
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.8"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.1:key.keyboard.1
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.1"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.2:key.keyboard.2
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.2"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.3:key.keyboard.3
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.3"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.4:key.keyboard.4
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.4"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.sprint:key.mouse.5
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.mouse.5"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.forward:key.keyboard.w
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.w"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.drop:key.keyboard.q
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.q"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.back:key.keyboard.s
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.s"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.attack:key.mouse.left
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.mouse.left"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.use:key.mouse.right
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.mouse.right"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.saveToolbarActivator:key.keyboard.c
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.c"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.smoothCamera:key.keyboard.unknown
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.unknown"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.right:key.keyboard.d
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.d"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.jump:key.keyboard.space
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.space"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.sneak:key.keyboard.left.shift
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.left.shift"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.spectatorOutlines:key.keyboard.unknown
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.unknown"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.left:key.keyboard.a
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.a"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.command:key.keyboard.slash
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.slash"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.screenshot:key.keyboard.f2
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.f2"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.hotbar.9:key.keyboard.9
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.9"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.togglePerspective:key.keyboard.f5
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.f5"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.chat:key.keyboard.t
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.t"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.inventory:key.keyboard.e
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.e"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.fullscreen:key.keyboard.f11
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.f11"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: key_key.loadToolbarActivator:key.keyboard.x
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: java.lang.NumberFormatException: For input string: "key.keyboard.x"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1384)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:func_74300_a:1413]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] Skipping bad option: key_of.key.zoom:key.mouse.4
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: java.lang.NumberFormatException: For input string: "key.mouse.4"
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at java.lang.Integer.parseInt(Integer.java:580)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at java.lang.Integer.parseInt(Integer.java:615)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.client.settings.GameSettings.loadOfOptions(GameSettings.java:3142)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.client.settings.GameSettings.func_74300_a(GameSettings.java:1429)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.client.settings.GameSettings.<init>(GameSettings.java:348)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:444)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.client.main.Main.main(SourceFile:123)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at java.lang.reflect.Method.invoke(Method.java:497)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[10:32:59] [Client thread/INFO] [STDERR]: [net.minecraft.client.settings.GameSettings:loadOfOptions:3149]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[10:32:59] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] 
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] Build: 20210124-142939
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_51, Oracle Corporation
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] OpenGL: AMD Radeon(TM) Graphics, version 4.6.0 Compatibility Profile Context 22.20.16.04.220811, ATI Technologies Inc.
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] OpenGL Fancy fog: Not available (GL_NV_fog_distance)
+[10:32:59] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 16384x16384
+[10:32:59] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 Compatibility Profile Context 22.20.16.04.220811
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  ATI Technologies Inc.
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: AMD Radeon(TM) Graphics
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Save shaders configuration.
+[10:32:59] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] No shaderpack loaded.
+[10:33:00] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[10:33:00] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[10:33:00] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[10:33:00] [VersionCheck/INFO] [Config]: [OptiFine] Version found: G5
+[10:33:00] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[10:33:00] [Client thread/INFO] [FML]: -- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 332439648 bytes (317 MB) / 1073741824 bytes (1024 MB) up to 3221225472 bytes (3072 MB)
+  JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: 
+  Loaded coremods (and transformers): VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.15-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      Quark Plugin (Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      TheBetweenlandsLoadingPlugin (TheBetweenlands-3.9.4-core.jar)
+                                        thebetweenlands.core.TheBetweenlandsClassTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+                                        lumien.bloodmoon.asm.ClassTransformer
+  GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 22.20.16.04.220811' Renderer: 'AMD Radeon(TM) Graphics'
+  Suspected Mods: Unknown
+
+[10:33:00] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[10:33:00] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:33:00] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[10:33:00] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[10:33:00] [Client thread/INFO] [FML]: Searching C:\Users\МовчанНикита\AppData\Roaming\.minecraft\mods for mods
+[10:33:01] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[10:33:02] [Client thread/WARN] [FML]: Mod patchouli is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0-23.6
+[10:33:02] [Client thread/WARN] [FML]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.10-150
+[10:33:02] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 26058000 nanos
+[10:33:02] [Client thread/INFO] [FML]: Forge Mod Loader has identified 36 mods to load
+[10:33:03] [Client thread/WARN] [mixin]: Error loading class: team/chisel/client/TextureStitcher$MagicStitchingSprite (java.lang.ClassNotFoundException: The specified class 'team.chisel.client.TextureStitcher$MagicStitchingSprite' was not found)
+[10:33:03] [Client thread/WARN] [mixin]: Error loading class: openblocks/client/renderer/tileentity/TileEntityTankRenderer (java.lang.ClassNotFoundException: The specified class 'openblocks.client.renderer.tileentity.TileEntityTankRenderer' was not found)
+[10:33:03] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/GuiUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.GuiUtil' was not found)
+[10:33:03] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/RenderUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.RenderUtil' was not found)
+[10:33:03] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/HaloRenderItem (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.HaloRenderItem' was not found)
+[10:33:03] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/WrappedItemRenderer (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.WrappedItemRenderer' was not found)
+[10:33:03] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, aether_legacy, aoa3, appleskin, autoreglib, baubles, betteradvancements, betterburning, bettercaves, bloodmoon, brandonscore, codechickenlib, extendedrenderer, coroutil, configmod, ctm, divinerpg, draconicadditions, draconicevolution, foamfix, jei, journey, jeresources, mousetweaks, patchouli, quark, redstoneflux, twilightforest, vanillafix, zombieawareness, phosphor-lighting, thebetweenlands] at CLIENT
+[10:33:03] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, foamfixcore, aether_legacy, aoa3, appleskin, autoreglib, baubles, betteradvancements, betterburning, bettercaves, bloodmoon, brandonscore, codechickenlib, extendedrenderer, coroutil, configmod, ctm, divinerpg, draconicadditions, draconicevolution, foamfix, jei, journey, jeresources, mousetweaks, patchouli, quark, redstoneflux, twilightforest, vanillafix, zombieawareness, phosphor-lighting, thebetweenlands] at SERVER
+[10:33:03] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.network.PacketBuffer.func_180714_a
+[10:33:06] [Client thread/WARN] [FML]: Patcher expecting empty class data file for net.minecraft.block.state.BlockStateContainer$Builder, but received non-empty
+[10:33:06] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterDefinitionPatch:apply:136]: Added ghost buster patch (radius = 4) in net/minecraftforge/fluids/BlockFluidClassic func_180650_b
+[10:33:16] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[10:33:16] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[10:33:16] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[10:33:16] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[10:33:16] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[10:33:16] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[10:33:16] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[10:33:16] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.renderer.block.model.ModelResourceLocation.<init>
+[10:33:16] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[10:33:16] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[10:33:16] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:33:16] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:33:16] [Client thread/ERROR] [FML]: The mod redstoneflux is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source RedstoneFlux-1.12-2.1.1.1-universal.jar, however there is no signature matching that description
+[10:33:16] [Client thread/INFO] [brandonscore]: Brandon's Core online! Waiting for Draconic Evolution to join the party....
+[10:33:16] [Client thread/INFO] [draconicevolution]: Draconic Evolution online!
+[10:33:16] [Client thread/INFO] [brandonscore]: Hay! There you are! Now lets destroy some worlds!!
+[10:33:16] [Client thread/INFO] [draconicevolution]: Sounds like fun! Lets get to it!
+[10:33:17] [Client thread/INFO] [draconicevolution]: Hello Minecraft!!!
+[10:33:17] [Client thread/INFO] [draconicadditions]: I see you, Draconic Evolution...  Ready for a boost?
+[10:33:17] [Client thread/INFO] [draconicevolution]: Upping the potential for my draconic arsonal?  You bet!!!
+[10:33:17] [Client thread/INFO] [draconicadditions]: Then let's do this!
+[10:33:17] [Client thread/INFO] [draconicadditions]: Hello Minecraft!!!
+[10:33:18] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Aether, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Baubles, FMLFileResourcePack:Better Advancements, FMLFileResourcePack:Better Burning, FMLFileResourcePack:YUNG's Better Caves, FMLFileResourcePack:Bloodmoon, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Extended Renderer, FMLFileResourcePack:CoroUtil Library, FMLFileResourcePack:Extended Mod Config, FMLFileResourcePack:CTM, FMLFileResourcePack:DivineRPG, FMLFileResourcePack:Draconic Additions, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Journey Into the Light, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Patchouli, FMLFileResourcePack:Quark, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:VanillaFix, FMLFileResourcePack:Zombie Awareness, FMLFileResourcePack:Phosphor Lighting Engine, FMLFileResourcePack:The Betweenlands
+[10:33:18] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
+[10:33:18] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[10:33:18] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:33:18] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:33:18] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[10:33:18] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:33:18] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[10:33:18] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[10:33:18] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:33:18] [Client thread/INFO] [divinerpg.DivineRPG]: Creating registries
+[10:33:18] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[10:33:19] [Client thread/INFO] [FML]: Found 5982 ObjectHolder annotations
+[10:33:19] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:33:19] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:33:19] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[10:33:19] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[10:33:19] [Client thread/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_76615_h in mixins.phosphor.json:common.MixinChunk cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[10:33:19] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:33:19] [Forge Version Check/INFO] [forge.VersionCheck]: [journey] Starting version check at https://raw.githubusercontent.com/TheSlayerMC/Journey-Into-The-Light/master/update.json
+[10:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [journey] Found status: UP_TO_DATE Target: null
+[10:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [aether_legacy] Starting version check at https://raw.githubusercontent.com/Modding-Legacy/Aether-Legacy/master/aether-legacy-changelog.json
+[10:33:20] [Client thread/INFO] [aoa3]: Beginning fluid registration
+[10:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [vanillafix] Starting version check at https://gist.githubusercontent.com/Runemoro/28e8cf4c24a5f17f508a5d34f66d229f/raw/vanillafix_update.json
+[10:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [vanillafix] Found status: AHEAD Target: null
+[10:33:20] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Starting version check at https://raw.githubusercontent.com/TeamTwilight/twilightforest/1.12.x/update.json
+[10:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [twilightforest] Found status: AHEAD Target: null
+[10:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [mousetweaks] Starting version check at http://play.sourceruns.org/yalter/MouseTweaks/update.json
+[10:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [mousetweaks] Found status: BETA Target: null
+[10:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG/1.12.2/divinerpg_update.json
+[10:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [divinerpg] Found status: UP_TO_DATE Target: null
+[10:33:21] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:33:23] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[10:33:23] [Forge Version Check/INFO] [forge.VersionCheck]: [aoa3] Starting version check at https://gist.github.com/Tslat/e7afe2448fe39a695acd45764824b762/raw/
+[10:33:24] [Forge Version Check/INFO] [forge.VersionCheck]: [aoa3] Found status: UP_TO_DATE Target: null
+[10:33:24] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Starting version check at http://chickenbones.net/Files/notification/version.php?query=forge&version=1.12&file=CodeChickenLib
+[10:33:24] [Forge Version Check/INFO] [forge.VersionCheck]: [codechickenlib] Found status: BETA Target: null
+[10:33:25] [Client thread/INFO] [Quark]: 'Food tooltip' is forcefully disabled as it's incompatible with the following loaded mods: [appleskin]
+[10:33:26] [Client thread/INFO] [Quark]: Module building is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module tweaks is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module automation is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module experimental is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module decoration is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module vanity is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module management is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module world is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module client is enabled
+[10:33:26] [Client thread/INFO] [Quark]: Module misc is enabled
+[10:33:26] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraftforge.common.property.ExtendedBlockState.createState
+[10:33:26] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraftforge.common.property.ExtendedBlockState.foamfix_mapper
+[10:33:26] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.tileentity.TileEntityPistonRenderer
+[10:33:26] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [render, func_192841_a] Descriptor (Lnet/minecraft/tileentity/TileEntityPiston;DDDFIF)V)
+[10:33:26] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[10:33:26] [Client thread/INFO] [Quark ASM]: Patch result: true
+[10:33:26] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Aether, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Baubles, FMLFileResourcePack:Better Advancements, FMLFileResourcePack:Better Burning, FMLFileResourcePack:YUNG's Better Caves, FMLFileResourcePack:Bloodmoon, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Extended Renderer, FMLFileResourcePack:CoroUtil Library, FMLFileResourcePack:Extended Mod Config, FMLFileResourcePack:CTM, FMLFileResourcePack:DivineRPG, FMLFileResourcePack:Draconic Additions, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Journey Into the Light, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Patchouli, FMLFileResourcePack:Quark, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:VanillaFix, FMLFileResourcePack:Zombie Awareness, FMLFileResourcePack:Phosphor Lighting Engine, FMLFileResourcePack:The Betweenlands, quark-texture-proxy, quark-emote-pack
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod feature container for mod: draconicevolution
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod feature container for mod: draconicadditions
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicadditions
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicevolution
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicadditions
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicadditions
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: brandonscore
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicevolution
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicadditions
+[10:33:27] [Client thread/INFO] [brandonscore]: Found mod config container for mod: draconicadditions
+[10:33:27] [Client thread/INFO] [brandonscore]: Loading mod config for: draconicevolution
+[10:33:27] [Client thread/INFO] [brandonscore]: Loading mod config for: brandonscore
+[10:33:27] [Client thread/INFO] [brandonscore]: Loading mod config for: draconicadditions
+[10:33:27] [Client thread/WARN] [brandonscore]: No features were detected for mod: brandonscore. This maybe an issue or maybe this mod just does not have any items or blocks.
+[10:33:28] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper.bakeNormal
+[10:33:28] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper], Method [getTextures]
+[10:33:28] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper Finished.
+[10:33:28] [Client thread/INFO] [FML]: OBJLoader: Domain divinerpg has been added.
+[10:33:28] [Client thread/INFO] [divinerpg]: Maximum mob health increased to Double.MAX_VALUE (1.7976931348623157e+308)
+[10:33:28] [Client thread/INFO] [brandonscore]: Registering features for mod: draconicevolution
+[10:33:28] [Client thread/INFO] [brandonscore]: Registering feature renderers for mod: draconicevolution
+[10:33:28] [Client thread/INFO] [draconicevolution]: Finished PreInitialization
+[10:33:28] [Client thread/INFO] [FML]: OBJLoader: Domain draconicevolution has been added.
+[10:33:29] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: com.brandon3055.brandonscore.utils.Utils.openWebLink
+[10:33:29] [Client thread/ERROR] [draconicevolution]: Did not find any mod docs in the selected docs folder.
+[10:33:29] [Client thread/INFO] [draconicevolution]: Downloading Project Intelligence Mod Manifest...
+[10:33:29] [Client thread/INFO] [brandonscore]: Registering features for mod: draconicadditions
+[10:33:29] [Client thread/INFO] [brandonscore]: Registering feature renderers for mod: draconicadditions
+[10:33:29] [Client thread/INFO] [FML]: OBJLoader: Domain draconicadditions has been added.
+[10:33:29] [Client thread/INFO] [foamfix]: Removing LaunchWrapper package manifest map...
+[10:33:29] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.BlockModelRenderer
+[10:33:29] [Client thread/INFO] [Quark ASM]: Optifine Detected. Disabling Patch for Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V
+[10:33:29] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraftforge.client.model.ItemLayerModel.bake
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering Dimensions...
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_euca_gold
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_euca_silver
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_euca_goldite_grains
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_boil_charred_fields
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_boil_scorched_wasteland
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_boil_boiling_sands
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_boil_boiling_point
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_cloudia
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_corba_forest
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_corba_plains
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_corba_hills
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_corba_swamp
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_corba_bogweed_fields
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_depths
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_frozen_lands
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_terrania
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_enchanted_shroom_forest
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Biome Registered: biome_senterian_labyrinth
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 20, With Name: euca
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 22, With Name: boiling_point
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 26, With Name: cloudia
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 24, With Name: corba
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 21, With Name: depths
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 23, With Name: frozen_lands
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 27, With Name: terrania
+[10:33:30] [Client thread/INFO] [Journey Into the Light]: Registering dimension ID: 29, With Name: senterian
+[10:33:30] [Client thread/INFO] [jeresources]: Loading configs..
+[10:33:30] [Client thread/INFO] [jeresources]: Updating ModMetaData...
+[10:33:30] [Client thread/INFO] [jeresources]: Providing API...
+[10:33:31] [Client thread/INFO] [twilightforest]: Loaded compatibility for mod Baubles.
+[10:33:31] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Chisel.
+[10:33:31] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Forestry.
+[10:33:31] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Immersive Engineering.
+[10:33:31] [Client thread/INFO] [twilightforest]: Loaded compatibility for mod Just Enough Items.
+[10:33:31] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Tinkers' Construct.
+[10:33:31] [Client thread/INFO] [twilightforest]: Skipped compatibility for mod Thaumcraft.
+[10:33:31] [Client thread/WARN] [org.dimdev.utils.ModIdentifier]: Failed to identify sun.reflect.GeneratedMethodAccessor9 (untransformed name: sun.reflect.GeneratedMethodAccessor9)
+[10:33:31] [Client thread/FATAL] [VanillaFix]: Minecraft ran into a problem! Report saved to: C:\Users\МовчанНикита\AppData\Roaming\.minecraft\crash-reports\crash-2023-01-22_10.33.31-client.txt
+---- Minecraft Crash Report ----
+// Hi. I'm Minecraft, and I'm a crashaholic.
+
+Time: 2023-01-22 10:33:31 GMT
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from The Betweenlands (thebetweenlands)
+Caused by: java.lang.IllegalArgumentException: Failed to register dimension for id 20, One is already registered
+    at net.minecraftforge.common.DimensionManager.registerDimension(DimensionManager.java:134)
+    at thebetweenlands.common.TheBetweenlands.preInit(TheBetweenlands.java:143)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+    at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+    at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+    at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+    at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+    at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 731184112 bytes (697 MB) / 1879048192 bytes (1792 MB) up to 3221225472 bytes (3072 MB)
+  JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 36 mods loaded, 36 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                 | Version           | Source                                             | Signature                                |
+       |:----- |:------------------ |:----------------- |:-------------------------------------------------- |:---------------------------------------- |
+       | LCH   | minecraft          | 1.12.2            | minecraft.jar                                      | None                                     |
+       | LCH   | mcp                | 9.42              | minecraft.jar                                      | None                                     |
+       | LCH   | FML                | 8.0.99.99         | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCH   | forge              | 14.23.5.2860      | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCH   | foamfixcore        | 7.7.4             | minecraft.jar                                      | None                                     |
+       | LCH   | aether_legacy      | 1.5.3.2           | aether-1.12.2-v1.5.3.2.jar                         | None                                     |
+       | LCH   | aoa3               | 3.3.6             | AoA3-3.3.6.jar                                     | 8bddeac148843f40e0b9f69201be2f4b3071700d |
+       | LCH   | jei                | 4.16.1.302        | jei_1.12.2-4.16.1.302.jar                          | None                                     |
+       | LCH   | appleskin          | 1.0.14            | AppleSkin-mc1.12-1.0.14.jar                        | None                                     |
+       | LCH   | quark              | r1.6-179          | Quark-r1.6-179.jar                                 | None                                     |
+       | LCH   | autoreglib         | 1.3-32            | AutoRegLib-1.3-32.jar                              | None                                     |
+       | LCH   | baubles            | 1.5.2             | Baubles-1.12-1.5.2.jar                             | None                                     |
+       | LCH   | betteradvancements | 0.1.0.77          | BetterAdvancements-1.12.2-0.1.0.77.jar             | None                                     |
+       | LCH   | betterburning      | 0.9.2             | BetterBurning-1.12.2-0.9.2.jar                     | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCH   | bettercaves        | 1.12.2            | bettercaves-1.12.2-2.0.4.jar                       | None                                     |
+       | LCH   | bloodmoon          | 1.5.3             | Bloodmoon-MC1.12.2-1.5.3.jar                       | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+       | LCH   | codechickenlib     | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCH   | redstoneflux       | 2.1.1             | RedstoneFlux-1.12-2.1.1.1-universal.jar            | None                                     |
+       | LCH   | brandonscore       | 2.4.20            | BrandonsCore-1.12.2-2.4.20.162-universal.jar       | None                                     |
+       | LCH   | extendedrenderer   | v1.0              | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+       | LCH   | coroutil           | 1.12.1-1.2.37     | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+       | LCH   | configmod          | v1.0              | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+       | LCH   | ctm                | MC1.12.2-1.0.2.31 | CTM-MC1.12.2-1.0.2.31.jar                          | None                                     |
+       | LCH   | divinerpg          | 1.7.1             | DivineRPG-1.7.1.jar                                | None                                     |
+       | LCH   | draconicevolution  | 2.3.28            | Draconic-Evolution-1.12.2-2.3.28.354-universal.jar | None                                     |
+       | LCH   | draconicadditions  | 1.17.0            | Draconic-Additions-1.12.2-1.17.0.45-universal.jar  | None                                     |
+       | LCH   | foamfix            | @VERSION@         | foamfix-0.10.15-1.12.2.jar                         | None                                     |
+       | LCH   | journey            | 1.0.6.11          | Journey-Into-The-Light-1.12.2-1.0.6.11.jar         | None                                     |
+       | LCH   | jeresources        | 0.9.2.60          | JustEnoughResources-1.12.2-0.9.2.60.jar            | None                                     |
+       | LCH   | mousetweaks        | 2.10.1            | MouseTweaks-2.10.1-mc1.12.2.jar                    | None                                     |
+       | LCH   | patchouli          | 1.0-23.6          | Patchouli-1.0-23.6.jar                             | None                                     |
+       | LCH   | twilightforest     | 3.11.1021         | twilightforest-1.12.2-3.11.1021-universal.jar      | None                                     |
+       | LCH   | vanillafix         | 1.0.10-150        | VanillaFix-1.0.10-150.jar                          | None                                     |
+       | LCH   | zombieawareness    | 1.12.1-1.11.16    | zombieawareness-1.12.1-1.11.16.jar                 | None                                     |
+       | LCH   | phosphor-lighting  | 1.12.2-0.2.7      | phosphor-forge-mc1.12.2-0.2.7-universal.jar        | None                                     |
+       | LCE   | thebetweenlands    | 3.9.4             | TheBetweenlands-3.9.4-universal.jar                | 38067d6878811efb38b6a045521cfd80b9b60b38 |
+  Loaded coremods (and transformers): VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.15-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      Quark Plugin (Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      TheBetweenlandsLoadingPlugin (TheBetweenlands-3.9.4-core.jar)
+                                        thebetweenlands.core.TheBetweenlandsClassTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+                                        lumien.bloodmoon.asm.ClassTransformer
+  GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 22.20.16.04.220811' Renderer: 'AMD Radeon(TM) Graphics'
+  Patchouli open book context: n/a
+  Suspected Mods: The Betweenlands (thebetweenlands)
+
+[10:33:32] [Client thread/WARN] [org.dimdev.utils.ModIdentifier]: Failed to identify sun.reflect.GeneratedMethodAccessor9 (untransformed name: sun.reflect.GeneratedMethodAccessor9)
+[10:33:32] [Client thread/FATAL] [VanillaFix]: Minecraft ran into a problem! Report saved to: C:\Users\МовчанНикита\AppData\Roaming\.minecraft\crash-reports\crash-2023-01-22_10.33.32-client.txt
+---- Minecraft Crash Report ----
+// Don't be sad, have a hug! <3
+
+Time: 2023-01-22 10:33:32 GMT
+Description: Initializing game
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from The Betweenlands (thebetweenlands)
+Caused by: java.lang.IllegalArgumentException: Failed to register dimension for id 20, One is already registered
+    at net.minecraftforge.common.DimensionManager.registerDimension(DimensionManager.java:134)
+    at thebetweenlands.common.TheBetweenlands.preInit(TheBetweenlands.java:143)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+    at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+    at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+    at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+    at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+    at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+    at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+    at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+    at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+    at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+    at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+    at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+    at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+    at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+    at net.minecraft.client.main.Main.main(SourceFile:123)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:497)
+    at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+    at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_51, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 727766448 bytes (694 MB) / 1879048192 bytes (1792 MB) up to 3221225472 bytes (3072 MB)
+  JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: MCP 9.42 Powered by Forge 14.23.5.2860 Optifine OptiFine_1.12.2_HD_U_G5 36 mods loaded, 36 mods active
+       States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+       
+       | State | ID                 | Version           | Source                                             | Signature                                |
+       |:----- |:------------------ |:----------------- |:-------------------------------------------------- |:---------------------------------------- |
+       | LCH   | minecraft          | 1.12.2            | minecraft.jar                                      | None                                     |
+       | LCH   | mcp                | 9.42              | minecraft.jar                                      | None                                     |
+       | LCH   | FML                | 8.0.99.99         | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCH   | forge              | 14.23.5.2860      | forge-1.12.2-14.23.5.2860.jar                      | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+       | LCH   | foamfixcore        | 7.7.4             | minecraft.jar                                      | None                                     |
+       | LCH   | aether_legacy      | 1.5.3.2           | aether-1.12.2-v1.5.3.2.jar                         | None                                     |
+       | LCH   | aoa3               | 3.3.6             | AoA3-3.3.6.jar                                     | 8bddeac148843f40e0b9f69201be2f4b3071700d |
+       | LCH   | jei                | 4.16.1.302        | jei_1.12.2-4.16.1.302.jar                          | None                                     |
+       | LCH   | appleskin          | 1.0.14            | AppleSkin-mc1.12-1.0.14.jar                        | None                                     |
+       | LCH   | quark              | r1.6-179          | Quark-r1.6-179.jar                                 | None                                     |
+       | LCH   | autoreglib         | 1.3-32            | AutoRegLib-1.3-32.jar                              | None                                     |
+       | LCH   | baubles            | 1.5.2             | Baubles-1.12-1.5.2.jar                             | None                                     |
+       | LCH   | betteradvancements | 0.1.0.77          | BetterAdvancements-1.12.2-0.1.0.77.jar             | None                                     |
+       | LCH   | betterburning      | 0.9.2             | BetterBurning-1.12.2-0.9.2.jar                     | d476d1b22b218a10d845928d1665d45fce301b27 |
+       | LCH   | bettercaves        | 1.12.2            | bettercaves-1.12.2-2.0.4.jar                       | None                                     |
+       | LCH   | bloodmoon          | 1.5.3             | Bloodmoon-MC1.12.2-1.5.3.jar                       | d72e0dd57935b3e9476212aea0c0df352dd76291 |
+       | LCH   | codechickenlib     | 3.2.3.358         | CodeChickenLib-1.12.2-3.2.3.358-universal.jar      | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+       | LCH   | redstoneflux       | 2.1.1             | RedstoneFlux-1.12-2.1.1.1-universal.jar            | None                                     |
+       | LCH   | brandonscore       | 2.4.20            | BrandonsCore-1.12.2-2.4.20.162-universal.jar       | None                                     |
+       | LCH   | extendedrenderer   | v1.0              | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+       | LCH   | coroutil           | 1.12.1-1.2.37     | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+       | LCH   | configmod          | v1.0              | coroutil-1.12.1-1.2.37.jar                         | None                                     |
+       | LCH   | ctm                | MC1.12.2-1.0.2.31 | CTM-MC1.12.2-1.0.2.31.jar                          | None                                     |
+       | LCH   | divinerpg          | 1.7.1             | DivineRPG-1.7.1.jar                                | None                                     |
+       | LCH   | draconicevolution  | 2.3.28            | Draconic-Evolution-1.12.2-2.3.28.354-universal.jar | None                                     |
+       | LCH   | draconicadditions  | 1.17.0            | Draconic-Additions-1.12.2-1.17.0.45-universal.jar  | None                                     |
+       | LCH   | foamfix            | @VERSION@         | foamfix-0.10.15-1.12.2.jar                         | None                                     |
+       | LCH   | journey            | 1.0.6.11          | Journey-Into-The-Light-1.12.2-1.0.6.11.jar         | None                                     |
+       | LCH   | jeresources        | 0.9.2.60          | JustEnoughResources-1.12.2-0.9.2.60.jar            | None                                     |
+       | LCH   | mousetweaks        | 2.10.1            | MouseTweaks-2.10.1-mc1.12.2.jar                    | None                                     |
+       | LCH   | patchouli          | 1.0-23.6          | Patchouli-1.0-23.6.jar                             | None                                     |
+       | LCH   | twilightforest     | 3.11.1021         | twilightforest-1.12.2-3.11.1021-universal.jar      | None                                     |
+       | LCH   | vanillafix         | 1.0.10-150        | VanillaFix-1.0.10-150.jar                          | None                                     |
+       | LCH   | zombieawareness    | 1.12.1-1.11.16    | zombieawareness-1.12.1-1.11.16.jar                 | None                                     |
+       | LCH   | phosphor-lighting  | 1.12.2-0.2.7      | phosphor-forge-mc1.12.2-0.2.7-universal.jar        | None                                     |
+       | LCE   | thebetweenlands    | 3.9.4             | TheBetweenlands-3.9.4-universal.jar                | 38067d6878811efb38b6a045521cfd80b9b60b38 |
+  Loaded coremods (and transformers): VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.15-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      Quark Plugin (Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      TheBetweenlandsLoadingPlugin (TheBetweenlands-3.9.4-core.jar)
+                                        thebetweenlands.core.TheBetweenlandsClassTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      LoadingPlugin (Bloodmoon-MC1.12.2-1.5.3.jar)
+                                        lumien.bloodmoon.asm.ClassTransformer
+  GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 22.20.16.04.220811' Renderer: 'AMD Radeon(TM) Graphics'
+  Patchouli open book context: n/a
+  Suspected Mods: The Betweenlands (thebetweenlands)
+  Launched Version: 1.12.2-forge-14.23.5.2860
+  LWJGL: 2.9.4
+  OpenGL: AMD Radeon(TM) Graphics GL version 4.6.0 Compatibility Profile Context 22.20.16.04.220811, ATI Technologies Inc.
+  GL Caps: Using GL 1.3 multitexturing.
+           Using GL 1.3 texture combiners.
+           Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+           Shaders are available because OpenGL 2.1 is supported.
+           VBOs are available because OpenGL 1.5 is supported.
+  Using VBOs: Yes
+  Is Modded: Definitely; Client brand changed to 'fml,forge'
+  Type: Client (map_client.txt)
+  Resource Packs: vanilla, mod_resources, file/Nihonium RP (rubidium).zip, file/Nihonium RP2.zip
+  Current Language: Русский (Россия)
+  Profiler Position: N/A (disabled)
+  CPU: 12x AMD Ryzen 5 4600G with Radeon Graphics
+
+[10:33:32] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[10:33:32] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
+[10:33:32] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:The Aether, FMLFileResourcePack:Advent Of Ascension, FMLFileResourcePack:AppleSkin, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Baubles, FMLFileResourcePack:Better Advancements, FMLFileResourcePack:Better Burning, FMLFileResourcePack:YUNG's Better Caves, FMLFileResourcePack:Bloodmoon, FMLFileResourcePack:Brandon's Core, FMLFileResourcePack:CodeChicken Lib, FMLFileResourcePack:Extended Renderer, FMLFileResourcePack:CoroUtil Library, FMLFileResourcePack:Extended Mod Config, FMLFileResourcePack:CTM, FMLFileResourcePack:DivineRPG, FMLFileResourcePack:Draconic Additions, FMLFileResourcePack:Draconic Evolution, FMLFileResourcePack:FoamFix, FMLFileResourcePack:Just Enough Items, FMLFileResourcePack:Journey Into the Light, FMLFileResourcePack:Just Enough Resources, FMLFileResourcePack:Mouse Tweaks, FMLFileResourcePack:Patchouli, FMLFileResourcePack:Quark, FMLFileResourcePack:Redstone Flux, FMLFileResourcePack:The Twilight Forest, FMLFileResourcePack:VanillaFix, FMLFileResourcePack:Zombie Awareness, FMLFileResourcePack:Phosphor Lighting Engine, FMLFileResourcePack:The Betweenlands, quark-texture-proxy, quark-emote-pack, VanillaFix-1.0.10-150.jar
+[10:33:32] [Client thread/INFO] [Config]: [OptiFine] *** Reloading textures ***
+[10:33:32] [Client thread/INFO] [Config]: [OptiFine] Resource packs: Default
+[10:33:32] [Client thread/INFO] [Config]: [OptiFine] EmissiveTextures: Loading optifine/emissive.properties
+[10:33:32] [Client thread/WARN] [net.minecraft.client.audio.SoundHandler]: File journey:sounds/spirit_crystal_activate.ogg does not exist, cannot add it to event journey:spirit_crystal_activate
+[10:33:32] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[10:33:33] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[10:33:33] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:33:33] [Thread-6/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[10:33:33] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
